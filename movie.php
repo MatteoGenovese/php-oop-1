@@ -8,11 +8,9 @@ class Movie {
     
     function __construct($_title, $_duration, $_genre)
     {
-
         $this->setTitle($_title);
         $this->setDuration($_duration);
         $this->setGenre($_genre);
-
     }
 
     private function setGenre($_genre){
@@ -29,4 +27,18 @@ class Movie {
         if(is_string($_title))
             $this->title=$_title;
     }
+
+    private function getGenre(){
+            return $this->genre;
+    }
+
+    private function getDuration(){
+            return $this->duration;
+    }
+
+    private function getTitle(){
+            return $this->title;
+    }
+
+
 }
