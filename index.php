@@ -7,6 +7,14 @@
     <title>Document</title>
 </head>
 <body>
+    <?php 
+
+    require __DIR__ . "/movie.php"
+
+
+    
+    ?>
+
     
 </body>
 </html>l
