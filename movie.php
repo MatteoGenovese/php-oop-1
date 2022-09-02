@@ -28,15 +28,15 @@ class Movie {
             $this->title=$_title;
     }
 
-    private function getGenre(){
+    public function getGenre(){
             return $this->genre;
     }
 
-    private function getDuration(){
+    public function getDuration(){
             return $this->duration;
     }
 
-    private function getTitle(){
+    public function getTitle(){
             return $this->title;
     }
 
